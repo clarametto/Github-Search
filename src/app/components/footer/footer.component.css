@@ -1,0 +1,7 @@
+.footer_background{
+    background-color: rgb(17, 160, 160);
+}
+
+.footer_hover :hover{
+    color: black;
+}
