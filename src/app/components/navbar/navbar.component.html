@@ -1,24 +1,11 @@
-<mat-toolbar class="nav nav_background mat-elevation-z9">
-    <span>
-        <a href="/" class="navbar-brand nav-link nav_text">
-            <img 
-            src="https://images2.imgbox.com/63/86/OyD9ohgf_o.png" 
-            alt="github icon" width="100" height="70" class=""
-            >
-        </a>
-    </span>
-  
-    <a mat-button routerLink="home" class="nav_text_color"><h5>Home</h5></a>
-    <a mat-button routerLink="repos" class="nav_text_color"><h5>Repositories</h5></a>
-
-    <div class="my_spacing"></div>
-    <div>
-        <!-- Search form is here -->
-        <form>
-            <div class="input-group">
-              <input type="search" class="form-control rounded " placeholder="Search GitHub..." aria-label="Search" aria-describedby="search-addon" /> <!-- [(ngModel)]="userQuery" name="userQuery" -->
-              <button type="button" class="btn btn-danger" >Search</button> <!-- (click)="searchUser()" -->
-            </div>
-          </form>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" routerLink= '/userprofile' routerLinkActive='active'>Profile</a>
+        <a class="nav-item nav-link" routerLink='/repositories' routerLinkActive='active'>Repositories</a>
+      </div>
     </div>
-</mat-toolbar>
+  </nav>
