@@ -1,16 +1,24 @@
 <mat-toolbar class="nav nav_background mat-elevation-z9">
     <span>
-      <a class="navbar-brand nav-link nav_text">
-        <!-- <img src="https://cdn.freebiesbug.com/wp-content/uploads/2012/12/github-psd-icon-580x340.jpg"
-          alt="github icon" width="100" height="100" class=""> -->
-      </a>
+        <a href="/" class="navbar-brand nav-link nav_text">
+            <img 
+            src="https://images2.imgbox.com/63/86/OyD9ohgf_o.png" 
+            alt="github icon" width="100" height="70" class=""
+            >
+        </a>
     </span>
   
     <a mat-button routerLink="home" class="nav_text_color"><h5>Home</h5></a>
     <a mat-button routerLink="repos" class="nav_text_color"><h5>Repositories</h5></a>
-    <a mat-button routerLink="users" class="nav_text_color"><h5>User</h5></a>
 
     <div class="my_spacing"></div>
-
-    <!-- <a mat-raised-button color="" routerLink="search"><h2>Search</h2></a> -->
+    <div>
+        <!-- Search form is here -->
+        <form>
+            <div class="input-group">
+              <input type="search" class="form-control rounded " placeholder="Search GitHub..." aria-label="Search" aria-describedby="search-addon" /> <!-- [(ngModel)]="userQuery" name="userQuery" -->
+              <button type="button" class="btn btn-danger" >Search</button> <!-- (click)="searchUser()" -->
+            </div>
+          </form>
+    </div>
 </mat-toolbar>
