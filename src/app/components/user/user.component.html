@@ -14,5 +14,25 @@
             </div>
         </div>
 
+
+        <div class="col-md-9">
+            <div class="text-center">
+                <h2>REPOSITORIES</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 m-2"> <!--  *ngFor="let repo of repos" -->
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">put_here</h5> <!-- {{repo.name}}  -->
+                          <p class="card-text">put_here`</p> <!-- {{repo.description}} -->
+                          <a href="put_Repo_Url_Here" class="btn btn-primary" target="_blank">View Repo</a> <!-- {{repo.html_url}} -->
+                        </div>
+                        <div class="card-footer text-muted">
+                            Created: <!-- {{repo.created}} -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
