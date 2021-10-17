@@ -26,7 +26,8 @@
         <div class="card m-3">
           <div class="card-body">
             <div class="text-center">
-              <button class="btn btn-lg bg-primary text-light card-title">{{repo.name}}</button>
+              <h2 class="text-info">{{repo.name}}</h2>
+              <!-- <button class="btn btn-lg bg-primary text-light card-title">{{repo.name}}</button> -->
             </div>
             <!-- <div class="card-title">{{repo.name}}</div> -->
             <div class="card-text">{{repo.description}}</div>
@@ -35,8 +36,21 @@
         </div>
       </div>
     </div>
+
     <div class="col-md-4">
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github User</h2>
+      <div>
+        <div class="text-center">
+          <img src="{{Users.avatar_url}}" alt="" class="img-fluid rounded">
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Username: {{Users.login}}</li>
+          <li class="list-group-item">Followers: {{Users.followers}}</li>
+          <li class="list-group-item">Following: {{Users.following}}</li>
+          <li class="list-group-item">Public Repositories: {{Users.public_repos}}</li>
+          <li class="list-group-item">Location: {{Users.location}}</li>
+        </ul>
+      </div>
     </div>
     
   </div>
