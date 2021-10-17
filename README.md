@@ -1,5 +1,16 @@
 # GithubSearch
 
+## Developer
+This project was develop by Clara Metto
+
+
+## Description
+This is a website where users are able to enter a GitHub username into a form, submit it, And get to see names and descriptions of that person's public repositories. A user can also look for repositories.
+
+
+## Sample image
+![github](https://imgbox.com/EQQiYQdm)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
 ## Development server
