@@ -21,6 +21,19 @@
   <div class="row">
     <div class="col-md-8">
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github Repositories</h2>
+
+      <div *ngFor='let repo of Repos'>
+        <div class="card m-3">
+          <div class="card-body">
+            <div class="text-center">
+              <button class="btn btn-lg bg-primary text-light card-title">{{repo.name}}</button>
+            </div>
+            <!-- <div class="card-title">{{repo.name}}</div> -->
+            <div class="card-text">{{repo.description}}</div>
+            <div class="card-footer">{{repo.created_at | date}}</div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-md-4">
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github User</h2>
