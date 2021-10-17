@@ -9,7 +9,7 @@
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github Repositories</h2>
 
       <div *ngFor='let repo of Repos'>
-        <div class="card m-3" style="background-color: rgb(163, 190, 190);">
+        <div class="card m-3" style="background-color: rgb(230, 253, 248);">
           <div class="card-body">
             <div class="text-center">
               <h2 class="text-info">{{repo.name}}</h2>
@@ -17,7 +17,7 @@
             </div>
             <!-- <div class="card-title">{{repo.name}}</div> -->
             <div class="card-text">{{repo.description}}</div>
-            <div class="card-footer">{{repo.created_at | date}}</div>
+            <div class="card-footer">Created on: {{repo.created_at | date}}</div>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github User</h2>
       <div>
         <div class="text-center">
-          <img src="{{Users.avatar_url}}" alt="" class="img-fluid rounded">
+          <img src="{{Users.avatar_url}}" alt="" class="img-fluid rounded-circle">
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Username: {{Users.login}}</li>
