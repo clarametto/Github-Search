@@ -1,11 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" routerLink= '/userprofile' routerLinkActive='active'>Profile</a>
-        <a class="nav-item nav-link" routerLink='/repositories' routerLinkActive='active'>Repositories</a>
-      </div>
-    </div>
-</nav>
+<mat-toolbar class="nav_background mat-elevation-z8">  
+  <span> 
+    <a href="/" class="navbar-brand nav-link"> 
+      <img src="https://images2.imgbox.com/63/86/OyD9ohgf_o.png"  alt="GitHub Search" width="80" height="65" class=""> 
+    </a>  
+  </span>
+  
+  <a class="nav_text_color" mat-button routerLink="/userprofile" routerLinkActive='active'><h2>Profile</h2></a>  
+  <a class="nav_text_color" mat-button routerLink="/repositories" routerLinkActive='active'><h2>Repositories</h2></a>
+
+  <div class="my_spacing"></div>
+   
+  
+  
+</mat-toolbar>
