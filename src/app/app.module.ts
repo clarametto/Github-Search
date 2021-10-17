@@ -13,6 +13,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UserComponent } from './components/user/user.component';
 import { SearchComponent } from './search/search.component';
+import { RepositoriesComponent } from './repositories/repositories.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchComponent } from './search/search.component';
     NavbarComponent,
     FooterComponent,
     UserComponent,
-    SearchComponent
+    SearchComponent,
+    RepositoriesComponent
   ],
   imports: [
     BrowserModule,

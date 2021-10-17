@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngIf='Repos'>
+      <div *ngFor='let repo of Repos'>
+        <h3>{{repo.name}}</h3>
+        <p> {{repo.description}} </p>
+        <p> {{repo.created_at | date}}</p>
+      </div>
+    </div>
+  </div>
