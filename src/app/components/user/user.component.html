@@ -1,23 +1,9 @@
-<!-- <app-search (emitSearch)="searchGit($event)"></app-search><br>
-<div class="container">
-  <img id="avatar" src="{{Users.avatar_url}}" alt="profile pic" height="250px" width="250px">
-<p>Username: {{Users.login}}</p>
-<p>Followers: {{Users.followers}}</p>
-<p>Following: {{Users.following}}</p>
-<p>Public Repositories: {{Users.public_repos}}</p>
-<p>Location: {{Users.location}}</p>
-
-<div *ngIf='Repos'>
-  <div *ngFor='let repo of Repos'>
-    <h3>{{repo.name}}</h3>
-    <p> {{repo.description}} </p>
-    <p> {{repo.created_at | date}}</p>
-  </div>
-</div>
-</div> -->
-
-
 <div class="container m-3">
+
+  <app-search (emitSearch)="searchGit($event)"></app-search>
+  <br>
+  <hr>
+
   <div class="row">
     <div class="col-md-8">
       <h2 class="text-center p-1 rounded" style="background-color: rgb(255, 255, 255);">Github Repositories</h2>
