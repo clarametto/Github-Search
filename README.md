@@ -6,6 +6,11 @@ This project was develop by Clara Metto
 
 ## Description
 This is a website where users are able to enter a GitHub username into a form, submit it, And get to see names and descriptions of that person's public repositories. A user can also look for repositories.
+##Languages used
+* html
+*css
+*Boostrap
+*Angular
 
 
 ## Sample image
