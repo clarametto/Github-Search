@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { UserComponent } from './components/user/user.component';
 import { SearchComponent } from './search/search.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { TimePipe } from './pipes/time.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     FooterComponent,
     UserComponent,
     SearchComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    TimePipe
   ],
   imports: [
     BrowserModule,
