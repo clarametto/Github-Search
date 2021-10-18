@@ -9,7 +9,7 @@ This is a website where users are able to enter a GitHub username into a form, s
 
 
 ## Sample image
-![github](https://imgbox.com/EQQiYQdm)
+![github](https://images2.imgbox.com/14/c9/EQQiYQdm_o.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
